@@ -1,19 +1,25 @@
 ---
-title: "When to Use Static Generation v.s. Server-side Rendering"
+title: "Projeler"
 date: "2020-01-02"
 ---
+**En Güncel:**
+“Yemek Mi Dedin” isminde; Kahvaltı, öğle yemeği, akşam yemeği , cafeler ve eğlence mekanları gibi kategorileri içeren
+mekanların olduğu, bu mekanların indirimli fırsatlarına ulaşabildiğiniz , üye olunabilen, yönetim panelinin bulunduğu interaktif bir
+site geliştirdim
+Projede: MVC yapısını, .Net dilini veritabanı olarak ise SQL Server’ı kullandım. Projenin baştan sona Html ve CSS kullanarak
+tasarlanması, responsive hale getirilmesi, kodlanması, veritabanının oluşturulması hepsi bana ait.
 
-We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
+**.NET - MVC Kullandığım Proje**
+Yakındaki Tarihi ve Kültürel Yerlerin tek bir haritada gösterildiği, kişilerin üye olabildiği, tarihi yerler hakkında geniş bir içeriğe
+sahip olan siteyi inceleme imkanını olduğu bir platform oluşturdum.
 
-You can use Static Generation for many types of pages, including:
+**MongoDB-Express-Angular-NodeJs**
+MEAN teknolojileri kullanarak “Mekan Bul” isminde yakındaki mekanları bulabilen, kişilerin yorum yazabildiği, puanlama
+yapabildiği, aralarında uzaklığın bulnabiliği bir uygulama geliştirdim.(JavaScript)
 
-- Marketing pages
-- Blog posts
-- E-commerce product listings
-- Help and documentation
+**PHP- Yii Framework-Mvc**
+Yii Framework'ü kullanarak MVC Tabanlı interaktif bir çok web sitesi geliştirdim.
 
-You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
-
-On the other hand, Static Generation is **not** a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
-
-In that case, you can use **Server-Side Rendering**. It will be slower, but the pre-rendered page will always be up-to-date. Or you can skip pre-rendering and use client-side JavaScript to populate data.
+**Python Projesi**
+-“PerSent” isminde; python, css ve html kullanarak Twitterdaki verileri olumlu, olumsuz veya nötr şeklinde analiz eden
+uygulama yaptık. ( Takım Çalışması)
